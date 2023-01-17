@@ -1,0 +1,12 @@
+package com.thoughtfocus;
+
+public class Constructor {
+
+	public int id;
+	public String name;
+	
+	public Constructor(String a, int b) {
+		name=a;
+		id=b;
+	}
+}

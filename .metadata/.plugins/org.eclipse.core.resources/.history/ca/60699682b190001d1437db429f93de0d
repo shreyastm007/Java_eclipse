@@ -1,0 +1,27 @@
+package com.thoughtfocus;
+
+public class Conversion {
+	public void example1() {
+		int a=50;
+		float b=a;
+		System.out.println(b);
+	}
+	public void example2() {
+		double c=50.025;
+		float d = (float)c;
+		System.out.println(d);
+		
+	}
+	public void example3() {
+		char s='v';
+		//String r=s.ToString();
+		System.out.println(s);
+	}
+	public void example4() {
+		String a="65";
+		//int b= int.Parse(a);
+		//String r=s.ToString();
+		System.out.println(a);
+	}
+	
+}

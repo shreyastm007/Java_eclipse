@@ -1,0 +1,7 @@
+package com.thoughtfocus;
+
+public class Rectangle extends Shape{
+public override void draw() {
+	System.out.println("drawing rectangle");
+}
+}

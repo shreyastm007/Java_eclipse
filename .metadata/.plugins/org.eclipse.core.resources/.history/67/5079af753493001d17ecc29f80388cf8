@@ -1,0 +1,11 @@
+package com.thoughtfocus;
+
+
+public class Controller {
+
+	public void method() {
+		 id = 5;
+		
+	}
+	
+}

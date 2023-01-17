@@ -1,0 +1,10 @@
+package com.thoughtfocus;
+
+public class Conversion {
+	public void example1() {
+		int a=50;
+		float b=a;
+		System.out.println(b);
+	}
+	
+}

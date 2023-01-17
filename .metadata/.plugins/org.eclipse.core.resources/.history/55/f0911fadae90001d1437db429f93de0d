@@ -1,0 +1,15 @@
+package com.thoughtfocus;
+
+public class Calculator {
+
+	public int sum(int a, int b)
+	{
+		System.out.println("Sum is");
+		return a+b;
+	}
+	
+	public int multiply(int c, int d) {
+		System.out.println("Product is");
+		return c*d;
+	}
+}

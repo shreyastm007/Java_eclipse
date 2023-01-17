@@ -1,0 +1,11 @@
+package com.thoughtfocus;
+
+public class Enumeration {
+	public enum planets {
+		pluto,neptune,jupyter;
+		}
+
+public void example() {
+	System.out.println(planets);
+}
+}

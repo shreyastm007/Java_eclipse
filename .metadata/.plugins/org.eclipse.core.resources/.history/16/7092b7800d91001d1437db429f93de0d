@@ -1,0 +1,17 @@
+package com.thoughtfocus;
+
+public class Exceptions {
+	String[] names=new String[] {"shreyas","avi","vaibhav"};
+	
+	public void throwException() {
+	try {
+		System.out.println(names[3]);
+	}
+	catch(IndexOutOfBoundsException e) {
+		System.out.println("exception occured: out of range exception");
+	}
+	finally{
+		System.out.println(names[0]);
+	}
+	}
+}

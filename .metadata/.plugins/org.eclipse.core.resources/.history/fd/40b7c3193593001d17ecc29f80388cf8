@@ -1,0 +1,7 @@
+package com.thoughtfocus;
+
+public class View {
+public void views() {
+	System.out.println("");
+}
+}

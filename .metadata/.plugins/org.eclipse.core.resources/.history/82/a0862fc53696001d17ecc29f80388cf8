@@ -1,0 +1,19 @@
+package com.thoughtfocus;
+
+import com.thoughtfocus.Modal;
+
+
+
+
+public class Controller {
+
+	public void method() {
+		id=4;
+		name="jaguar";
+		color="black";
+		seaters=6;
+		type="automatic";
+		
+	}
+	
+}

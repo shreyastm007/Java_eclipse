@@ -1,0 +1,14 @@
+package com.thoughtfocus;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		IfElseLoop loops=new IfElseLoop();
+		loops.gender();
+		
+		ForLoop forloop= new ForLoop();
+		forloop.iteration();
+
+	}
+
+}

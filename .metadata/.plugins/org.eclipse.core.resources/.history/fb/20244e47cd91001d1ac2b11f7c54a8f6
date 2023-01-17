@@ -1,0 +1,12 @@
+package com.thoughtfocus;
+
+import java.util.Scanner;
+
+public class SwitchState {
+	public void example() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the option:");
+		int n=sc.nextInt();
+	}
+
+}

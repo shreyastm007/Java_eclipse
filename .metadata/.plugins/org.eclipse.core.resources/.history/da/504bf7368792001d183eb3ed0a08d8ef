@@ -1,0 +1,10 @@
+package com.thoughtfocus;
+import java.util.*;  
+
+public class DictionaryExample {
+	 public void example(){  
+	 }
+	 Dictionary dict = new Hashtable();
+	 dict.put(4,"shreyas");
+	 System.out.println(dict);
+}

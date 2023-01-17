@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.thoughtfocus.gender&apos; to &apos;Gender&apos;&#x0D;&#x0A;- Original project: &apos;Enum&apos;&#x0D;&#x0A;- Original element: &apos;com.thoughtfocus.gender&apos;&#x0D;&#x0A;- Renamed element: &apos;com.thoughtfocus.Gender&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;gender&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.thoughtfocus{gender.java[gender" matchStrategy="1" name="Gender" qualified="false" references="true" similarDeclarations="false" stamp="1673370046892" textual="false" version="1.0"/>
+</session>

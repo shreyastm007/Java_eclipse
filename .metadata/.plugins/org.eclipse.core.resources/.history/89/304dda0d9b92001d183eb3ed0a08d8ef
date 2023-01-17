@@ -1,0 +1,53 @@
+
+package com.thoughtfocus;
+import java.util.PriorityQueue;
+
+public class PQueue {
+
+public void priorityQueue() {
+
+        // Creating a priority queue
+        PriorityQueue<Integer> numbers = new PriorityQueue<>();
+        numbers.add(4);
+        numbers.add(2);
+        numbers.add(1);
+        numbers.add(7);
+        numbers.add(9);
+        numbers.add(8);
+        numbers.add(6);
+        numbers.add(3);
+       
+     // Displaying the Stack
+        System.out.println("PriorityQueue: " + numbers);
+
+
+     		// Fetching the element at the head of the Stack
+     		System.out.println("The element at the top of the stack is:" + numbers.peek());
+     		
+     		//deletion
+     		System.out.println("The deleted element is:" + numbers.remove());
+     		System.out.println(numbers);
+
+     		//Searching:
+     		//It returns the position of the element from the top of the stack. Else, it returns -1.
+     		System.out.println( numbers.contains(2));
+     		System.out.println( numbers.contains(22));
+     		
+     		System.out.println( numbers.isEmpty());
+     		System.out.println( numbers.size());
+     		
+     		
+     		//Iterate means to fetch the elements of the queue. 
+     		//We can fetch elements of the stack using three different methods are as follows:
+     		//Using iterator() Method
+     		//Using forEach() Method
+     		//Using listIterator() Method
+     		
+     		System.out.println("Iteration:");
+     		numbers.forEach(n ->  
+     		{  
+     		System.out.println(n);  
+     		});  
+     	}
+
+}

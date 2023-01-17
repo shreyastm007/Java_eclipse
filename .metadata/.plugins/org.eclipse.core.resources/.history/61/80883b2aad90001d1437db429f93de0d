@@ -1,0 +1,9 @@
+package com.thoughtfocus;
+
+public class Calculator {
+
+	public int Sum(int a, int b)
+	{
+		
+	}
+}

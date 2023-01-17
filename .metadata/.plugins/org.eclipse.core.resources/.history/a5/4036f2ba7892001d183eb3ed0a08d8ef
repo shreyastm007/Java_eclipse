@@ -1,0 +1,25 @@
+
+package com.thoughtfocus;
+import java.util.PriorityQueue;
+
+public class PQueue {
+
+public void priorityQueue() {
+
+        // Creating a priority queue
+        PriorityQueue<Integer> numbers = new PriorityQueue<>();
+        numbers.add(4);
+        numbers.add(2);
+        numbers.add(1);
+        numbers.add(7);
+        numbers.add(9);
+        numbers.add(8);
+        numbers.add(6);
+        numbers.add(3);
+        System.out.println("PriorityQueue: " + numbers);
+
+        // Using the peek() method
+        int number = numbers.peek();
+        System.out.println("Accessed Element: " + number);
+    }
+}

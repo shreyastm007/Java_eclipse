@@ -1,0 +1,12 @@
+package com.thoughtfocus;
+
+public class Constructor1 extends Constructor {
+
+	public int x;
+	public String y;
+	
+	public Constructor2(String a, int b) {
+		y=a;
+		x=b;
+	}
+}

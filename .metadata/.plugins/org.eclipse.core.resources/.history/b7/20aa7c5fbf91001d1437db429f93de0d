@@ -1,0 +1,20 @@
+package com.thoughtfocus;
+
+public class IfElseLoop {
+	public void gender() {
+
+		String s="female";
+		
+		if(s=="male") {
+			System.out.println("MALE");
+		}
+		else if(s=="female") {
+			System.out.println("FEMALE");
+		}
+		else{
+			System.out.println("OTHERS");
+		}
+		
+	}
+
+}

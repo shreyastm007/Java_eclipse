@@ -1,0 +1,8 @@
+package com.thoughtfocus;
+import java.util.*;  
+
+public class DictionaryExample {
+	 public void example(){  
+	 }
+	 
+}

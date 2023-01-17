@@ -1,0 +1,16 @@
+package com.thoughtfocus;
+
+
+
+public class Controller {
+
+	public void method() {
+		int id=4;
+		String name="jaguar";
+		String color="black";
+		int seaters=6;
+		String type="automatic";
+		
+	}
+	
+}

@@ -1,0 +1,11 @@
+package com.thoughtfocus;
+
+public class Stack {
+public void stack() {
+	Stack stack1 = new Stack();
+	
+	 stack1.push(4);
+     stack1.push("All");
+     stack1.push("Geeks");
+}
+}

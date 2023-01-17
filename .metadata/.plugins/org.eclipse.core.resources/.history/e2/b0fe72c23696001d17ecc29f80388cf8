@@ -1,0 +1,8 @@
+package com.thoughtfocus;
+import com.thoughtfocus.Controller;
+
+public class View {
+public void views() {
+	System.out.println("Id:"+id  + "Name:"+name + "Color:" +color + "Seaters:" +seaters + "Type:" +type);
+}
+}

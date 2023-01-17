@@ -1,0 +1,14 @@
+package com.thoughtfocus;
+
+public class Calculator {
+
+	public int Sum(int a, int b)
+	{
+		return a+b;
+	}
+	
+	public int Sum(List<int> numbers) {
+		int sum=numbers.Sum;
+		return sum;
+	}
+}

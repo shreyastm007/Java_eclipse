@@ -1,0 +1,11 @@
+package com.thoughtfocus;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		BaicArray array=new BaicArray();
+		array.array();
+
+	}
+
+}

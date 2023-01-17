@@ -1,0 +1,11 @@
+package com.thoughtfocus;
+
+public class WhileLoop {
+ public void whLoop() {
+
+	 
+	 while(j>0) {
+		 System.out.println(j);
+	 }
+ }
+}

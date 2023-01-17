@@ -1,0 +1,18 @@
+package com.thoughtfocus;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Encapsulation encapsulation=new Encapsulation();
+		//set
+		encapsulation.id="10";
+		encapsulation.city="Hassan";
+		encapsulation.name="shreyas";
+		//get
+		System.out.println(encapsulation.id);
+		System.out.println(encapsulation.city);
+		System.out.println(encapsulation.name);
+
+	}
+
+}

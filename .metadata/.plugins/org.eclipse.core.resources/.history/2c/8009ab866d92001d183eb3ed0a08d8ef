@@ -1,0 +1,10 @@
+package com.thoughtfocus;
+  
+
+
+public class Stack {
+public void stack() {
+	
+
+}
+}

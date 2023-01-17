@@ -1,0 +1,10 @@
+package com.thoughtfocus;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Exceptions exceptions= new Exceptions();
+		exceptions.throwException();
+	}
+
+}

@@ -1,0 +1,48 @@
+package com.thoughtfocus;
+import java.util.*;  
+
+public class DictionaryExample {
+	 public void example(){  
+		 
+		 Dictionary dict = new Hashtable();
+		 dict.put(4,"shreyas");
+		 dict.put(5,"vaibhav");
+		 dict.put(9,"avi");
+		 dict.put(3,"prajwal");
+		 dict.put(7,"akshata");
+		 System.out.println(dict);
+		 
+		 
+		 
+		 //Printing the dictionary object   
+		 System.out.println(dict);
+		 
+			//deletion
+			System.out.println("The deleted element is:" + dict.remove(5));
+			System.out.println(dict);
+
+			//Searching:
+			//It returns the position of the element from the top of the stack. Else, it returns -1.
+			System.out.println( dict.get("Grapes"));
+			System.out.println( dict.get("100"));
+			
+			System.out.println( list.isEmpty());
+			System.out.println( list.size());
+			
+			
+			//Iterate means to fetch the elements of the stack. 
+			//We can fetch elements of the stack using three different methods are as follows:
+			//Using iterator() Method
+			//Using forEach() Method
+			//Using listIterator() Method
+			
+			System.out.println("Iteration:");
+			list.forEach(n ->  
+			{  
+			System.out.println(n);  
+			});  
+			
+	 }  
+	 }
+	
+}

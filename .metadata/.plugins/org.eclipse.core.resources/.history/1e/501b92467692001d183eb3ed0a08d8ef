@@ -1,0 +1,47 @@
+package com.thoughtfocus;
+
+import java.util.Queue;
+
+public class QueueDemo {
+	public void queueExample() {
+		
+		// Creating an empty Queue
+		Queue<Integer> queue= new Queue<Integer>();
+
+		// Use push() to add elements into the Stack
+		queue.add(1);
+		queue.add(2);
+		queue.add(3);
+
+		// Displaying the Stack
+		System.out.println("Initial Stack: " + queue);
+
+		// Fetching the element at the head of the Stack
+		System.out.println("The element at the top of the stack is:" + queue.peek());
+		
+		//deletion
+		System.out.println("The deleted element is:" + queue.remove());
+		System.out.println(queue);
+
+		//Searching:
+		//It returns the position of the element from the top of the stack. Else, it returns -1.
+		System.out.println( queue.contains(5));
+		System.out.println( queue.contains(2));
+		
+		System.out.println( queue.isEmpty());
+		System.out.println( queue.size());
+		
+		
+		//Iterate means to fetch the elements of the queue. 
+		//We can fetch elements of the stack using three different methods are as follows:
+		//Using iterator() Method
+		//Using forEach() Method
+		//Using listIterator() Method
+		
+		System.out.println("Iteration:");
+		queue.forEach(n ->  
+		{  
+		System.out.println(n);  
+		});  
+	}
+}

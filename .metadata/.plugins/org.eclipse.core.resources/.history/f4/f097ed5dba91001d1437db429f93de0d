@@ -1,0 +1,23 @@
+package com.thoughtfocus;
+
+import java.util.Scanner;
+
+public class Loops {
+	public void gender() {
+		System.out.println("Shreyas");
+		Scanner my_scan = new Scanner(System.in);
+		String my_gender=my_scan.nextLine();
+		//System.out.println(my_gender);
+		if(my_gender=="male") {
+			System.out.println("MALE");
+		}
+		else if(my_gender=="female") {
+			System.out.println("FEMALE");
+		}
+		else{
+			System.out.println("OTHERS");
+		}
+		
+	}
+
+}

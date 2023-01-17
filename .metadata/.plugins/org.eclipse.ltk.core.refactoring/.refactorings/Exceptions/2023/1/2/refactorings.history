@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.thoughtfocus.Exceptions&apos; to &apos;Exception&apos;&#x0D;&#x0A;- Original project: &apos;Exceptions&apos;&#x0D;&#x0A;- Original element: &apos;com.thoughtfocus.Exceptions&apos;&#x0D;&#x0A;- Renamed element: &apos;com.thoughtfocus.Exception&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exceptions&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.thoughtfocus{Exceptions.java[Exceptions" matchStrategy="1" name="Exception" qualified="false" references="true" similarDeclarations="false" stamp="1673372435536" textual="false" version="1.0"/>
+</session>

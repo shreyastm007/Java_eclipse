@@ -1,0 +1,16 @@
+package com.thoughtfocus;
+import java.util.*;  
+public class LinkedExample {
+
+	public void example(){  
+	  
+	  //LinkedList<String> linked=new LinkedList<String>();  
+		LinkedList linked=new LinkedList();
+	  linked.add("Ravi");  
+	  linked.add("Vijay");  
+	  linked.add("Ravi");  
+	  linked.add("Ajay");  
+	  
+	
+}
+}

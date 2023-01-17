@@ -1,0 +1,14 @@
+package com.thoughtfocus;
+import java.io.*;
+import java.util.*;
+public class Stack {
+public void stack() {
+	Stack stack1 = new Stack();
+	
+	 stack1.push(4);
+     stack1.push("All");
+     stack1.push("Geeks");
+     System.out.println(stack1);
+}
+
+}

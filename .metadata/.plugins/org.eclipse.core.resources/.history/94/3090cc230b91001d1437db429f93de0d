@@ -1,0 +1,6 @@
+package com.thoughtfocus;
+
+public class Exceptions {
+	String[] names=new String[] {"shreyas","avi","vaibhav"};
+	
+}
